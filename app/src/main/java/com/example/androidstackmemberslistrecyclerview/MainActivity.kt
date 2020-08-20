@@ -1,8 +1,7 @@
 package com.example.androidstackmemberslistrecyclerview
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.LinearLayout
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -26,6 +25,7 @@ class MainActivity : AppCompatActivity() {
             Recycler(R.drawable.olalekan_fagbemi, "Olalekan Fagbemi", "Member"),
             Recycler(R.drawable.oladapo_oladokun, "Oladapo  Oladokun", "Member"),
             Recycler(R.drawable.kingsley_izundu, "Kingsley Izundu", "Member"),
+            Recycler(R.drawable.victor_adewumi, "Victor Adewumi", "Member"),
             Recycler(R.drawable.fredrick_chibuzor, "Fredrick Chibuzor", "Member")
         )
         recyclerView.adapter = RecyclerAdapter(recyclerList)
